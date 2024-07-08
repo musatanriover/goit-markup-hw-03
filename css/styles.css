@@ -10,6 +10,27 @@ body {
   position: relative;
 }
 
+.header-flex-container {
+  display: flex;
+  gap: 400px;
+  align-items: flex-start;
+}
+
+.header-nav-flex-container {
+  display: flex;
+  gap: 100px;
+}
+
+.header-link-flex-container {
+  display: flex;
+  gap: 50px;
+}
+
+.header-address-flex-container {
+  display: flex;
+  gap: 50px;
+}
+
 .body-medium {
   font-weight: 500;
 }
@@ -85,6 +106,10 @@ ul a {
   letter-spacing: 0.02em;
 }
 
+li {
+  list-style-type: none;
+}
+
 nav {
   font-family: "Raleway", sans-serif;
 }
@@ -110,6 +135,8 @@ span {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  display: block;
+  margin-top: 15px;
 }
 
 footer {
