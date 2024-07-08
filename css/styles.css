@@ -1,0 +1,153 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin: 0 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.body-medium {
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  color: white;
+}
+
+.hero-first {
+  background-color: #2e2f42;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  line-height: 40px;
+  text-align: center;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+.button-first-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04;
+  background-color: #4d5ae5;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: #404bbf;
+}
+
+button:hover {
+  background-color: #404bbf;
+}
+
+header li a:hover {
+  color: #404bbf;
+}
+
+header li a:focus {
+  color: #404bbf;
+}
+
+ul a {
+  text-decoration: underline;
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+nav {
+  font-family: "Raleway", sans-serif;
+}
+
+ul a:hover {
+  color: #434455;
+}
+
+ul a:focus {
+  color: #404bbf;
+}
+
+span {
+  color: #2e2f42;
+}
+
+.logo {
+  text-decoration-color: #4d5ae5;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team li {
+  background-color: white;
+}
+
+.our-team img {
+  border-style: groove;
+  border-width: 1px;
+  border-color: #2e2f42;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+address {
+  font-style: normal;
+}
+
+p {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+.footer-paragraf {
+  color: #f4f4fd;
+}
+
+.body-medium {
+  color: #2e2f42;
+}
+
+.header-studio {
+  font-family: "Raleway", sans-serif;
+}
