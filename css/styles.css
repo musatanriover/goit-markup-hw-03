@@ -10,29 +10,36 @@ body {
   position: relative;
 }
 
+header {
+  display: block;
+  width: 1100px;
+}
+
 .header-flex-container {
   display: flex;
-  gap: 400px;
-  align-items: flex-start;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
 }
 
 .header-nav-flex-container {
   display: flex;
-  gap: 100px;
+  gap: 76px;
 }
 
 .header-link-flex-container {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 .header-address-flex-container {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 .body-medium {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1 {
@@ -46,9 +53,50 @@ h1 {
 
 .hero-first {
   background-color: #2e2f42;
+  padding: 188px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 140px;
 }
 
-h2 {
+.hero-header {
+  max-width: 496px;
+  height: 75px;
+}
+
+.hero-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 24px;
+}
+
+.hero-down-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.advantages-strategy {
+  margin-bottom: 8px;
+}
+
+.strategy-paragraf {
+  margin-top: 0px;
+}
+
+.h2 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
@@ -68,18 +116,19 @@ h3 {
   color: #2e2f42;
 }
 
-.button-first-section {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04;
-  background-color: #4d5ae5;
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-
 button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   letter-spacing: 0.04em;
+  line-height: 1.5;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -100,7 +149,7 @@ header li a:focus {
 }
 
 ul a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #434455;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -137,6 +186,7 @@ span {
   text-transform: uppercase;
   display: block;
   margin-top: 15px;
+  text-decoration: none;
 }
 
 footer {
@@ -145,10 +195,16 @@ footer {
 
 .our-team {
   background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .our-team li {
   background-color: white;
+  width: 265px;
 }
 
 .our-team img {
@@ -156,6 +212,58 @@ footer {
   border-width: 1px;
   border-color: #2e2f42;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.our-team-header {
+  text-align: center;
+  font-size: 36px;
+}
+
+.our-team-name {
+  text-align: center;
+}
+
+.our-team-paragraf {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.our-team-ul {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.our-portfolio-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.our-portfolio-header {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.our-portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 200px;
+  padding-left: 150px;
+  width: 1600px;
+  text-align: center;
+}
+
+.our-portfolio-li {
+  padding-top: 0px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 address {
@@ -169,6 +277,7 @@ p {
 
 .footer-paragraf {
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .body-medium {
@@ -177,4 +286,22 @@ p {
 
 .header-studio {
   font-family: "Raleway", sans-serif;
+}
+
+.footer-studio {
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
+}
+
+.footer-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 400px;
+}
+
+footer {
+  margin-top: 150px;
 }
