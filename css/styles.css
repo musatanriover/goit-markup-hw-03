@@ -105,10 +105,7 @@ h1 {
 
 .hero-down {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
-  padding: 188px 0;
 }
 
 .hero-down-section {
@@ -123,8 +120,6 @@ h1 {
   align-items: center;
   width: 264px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -283,7 +278,7 @@ footer {
   margin-bottom: 8px;
 }
 
-.our-portfolio-li img {
+.our-team-list-img {
   border-radius: 0px 0px 4px 4px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
