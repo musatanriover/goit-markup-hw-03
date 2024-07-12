@@ -88,9 +88,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
   gap: 24px;
+  padding: 188px 0;
 }
 
 .hero-down-list {
