@@ -75,16 +75,13 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding-top: 140px;
-}
-
-section {
   padding: 188px 0;
 }
 
 .hero-header {
   max-width: 496px;
-  height: 75px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-down {
@@ -147,6 +144,17 @@ button {
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-first-section {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
 }
