@@ -10,8 +10,10 @@ body {
   position: relative;
 }
 
-img {
+.our-portfolio-section img {
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -311,16 +313,11 @@ footer {
 .our-portfolio-ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.our-portfolio-section li {
-  width: calc((100% - 72px) / 4);
-}
-
-.our-portfolio-li {
-  width: calc((100% - 72px) / 4);
+  padding: 0;
 }
 
 .our-portfolio-info {
