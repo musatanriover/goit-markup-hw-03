@@ -302,19 +302,21 @@ footer {
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  padding: 120px 0;
 }
 
 .our-portfolio-header {
   font-size: 36px;
   text-align: center;
   margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .our-portfolio-ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 100px;
+  row-gap: 48px;
   justify-content: flex-start;
   align-items: center;
   margin-left: 200px;
@@ -327,6 +329,14 @@ footer {
   padding-top: 0px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  width: calc((100% - 72px) / 4);
+}
+
+.our-portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 address {
