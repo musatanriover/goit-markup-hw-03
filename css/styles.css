@@ -201,8 +201,8 @@ span {
   color: #4d5ae5;
   text-transform: uppercase;
   display: block;
-  margin-top: 15px;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 footer {
@@ -298,6 +298,7 @@ p {
 
 .body-medium {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-studio {
