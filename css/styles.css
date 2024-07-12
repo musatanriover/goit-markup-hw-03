@@ -271,6 +271,10 @@ footer {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
+.our-team-ul .list {
+  border-radius: 0px 0px 4px 4px;
+}
+
 .our-team-header {
   text-align: center;
   font-size: 36px;
