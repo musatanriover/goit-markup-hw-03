@@ -298,10 +298,6 @@ footer {
 }
 
 .our-portfolio-section {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  align-items: center;
   padding: 120px 0;
 }
 
@@ -316,19 +312,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 200px;
-  padding-left: 150px;
-  width: 1600px;
-  text-align: center;
+}
+
+.our-portfolio-section li {
+  width: calc((100% - 72px) / 4);
 }
 
 .our-portfolio-li {
-  padding-top: 0px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
   width: calc((100% - 72px) / 4);
 }
 
