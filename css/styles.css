@@ -106,10 +106,15 @@ h1 {
 .hero-down {
   display: flex;
   gap: 24px;
+  padding: 188px 0;
 }
 
 .hero-down-section {
   padding: 120px 0;
+}
+
+.hero-down .hero-down-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .hero-down-list {
@@ -120,7 +125,6 @@ h1 {
   align-items: center;
   width: 264px;
   text-align: center;
-  width: calc((100% - 72px) / 4);
 }
 
 .advantages-strategy {
